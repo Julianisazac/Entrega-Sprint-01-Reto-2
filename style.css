@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    box-shadow: 1px 1px 5px;
+    position: fixed;
+    z-index: 1;
+    background: rgb(52, 54, 52) 100%; 
+}
+
+#menu {
+    width: 400px;
+    padding-top: 50px;
+}
+
+#menu ul a{
+    color: white;
+    text-decoration: none;
+    font: 18px 'arial';
+    padding: 30px 20px 30px 20px ;
+}
+
+#menu ul a:hover {
+    color: purple;
+    background: aquamarine;
+}
+
+#contenido {
+    background-image: url(./Depositphotos_131240710_xl-2015-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+
+#contenido p {
+    color: white;
+    position: absolute;
+    padding: 300px 200px 200px 500px;
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    display: inline-block
+}
+
+#contenido button {
+    background-color: rgb(52, 54, 52);
+    color: white;;
+    font-size: 25px;
+    position: relative;
+    left: 800px;
+    top: 530px;
+    padding: 15px 50px 15px 50px;
+    cursor: pointer;
+}
+
+#contenido div{
+    background-image: url(./cards.png);
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    top: 1100px;
+    height: 50vh;
+    background-position: center;
+}
+
+#botones {
+    position: relative;
+    left: 800px;
+    width: 100%;
+    height: 120px;
+    color:rgb(52, 54, 52) ;
+} 
+
+
+.btn1 {
+    position: relative;
+    top: 311px;
+    right: 105px;
+    border: rgb(52, 54, 52);
+    cursor: pointer;
+    color: rgb(52, 54, 52);
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    padding: 8px 8px 8px 8px;
+}
+
+.btn1:hover{
+    color: white;
+    background: rgb(52, 54, 52);
+}
+
+.btn2 {
+    position: relative;
+    top: 311px;
+    right: 17px;;
+    border: rgb(52, 54, 52);
+    cursor: pointer;
+    color: rgb(52, 54, 52);
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    padding: 8px 8px 8px 8px;
+    
+}
+
+.btn2:hover{
+    color: white;
+    background: rgb(52, 54, 52);
+}
+
+.btn3{
+    position: relative;
+    top: 311px;
+    left: 70px;
+    border: rgb(52, 54, 52);
+    cursor: pointer;
+    color: rgb(52, 54, 52);
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    padding: 8px 8px 8px 8px;
+}
+
+.btn3:hover:hover{
+    color: white;
+    background: rgb(52, 54, 52);
+}
+
+
+#pie {
+    position: relative;
+    color: white;
+    top: 500px;
+    background-color: rgb(52, 54, 52);
+    height: 150px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif; 
+}
+
+#pie footer{
+    position: relative;
+    left: 850px;
+    top: 60px;
+}
